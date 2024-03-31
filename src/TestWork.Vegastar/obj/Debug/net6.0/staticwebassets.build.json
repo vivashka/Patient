@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "XJYCmrUZMfQQPHO7GeC243yM282SPdK7cW0FpF2BlJM=",
+  "Source": "TestWork.Vegastar",
+  "BasePath": "_content/TestWork.Vegastar",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TestWork.Vegastar\\wwwroot",
+      "Source": "TestWork.Vegastar",
+      "ContentRoot": "C:\\Users\\Nikita\\Downloads\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\wwwroot\\",
+      "BasePath": "_content/TestWork.Vegastar",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Nikita\\Downloads\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\wwwroot\\css\\site.css",
+      "SourceId": "TestWork.Vegastar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nikita\\Downloads\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\wwwroot\\",
+      "BasePath": "_content/TestWork.Vegastar",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
+}
