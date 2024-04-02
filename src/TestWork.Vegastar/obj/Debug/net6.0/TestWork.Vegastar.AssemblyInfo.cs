@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestWork.Vegastar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f180af897646410ad3eb0fdde85598521938c281")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestWork.Vegastar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestWork.Vegastar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

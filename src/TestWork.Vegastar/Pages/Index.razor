@@ -1,19 +1,37 @@
 ﻿@page "/"
 @using Models
+@using System.Text.Json;
 
 <div class="d-flex m-20">
     <RadzenText TextStyle="TextStyle.H5">Header</RadzenText>
 </div>
-<RadzenDataGrid TItem="Patient" Data="@data">
+<RadzenDataGrid Ttems="Patient, AdditionalInfo" Data="@data">
     <Columns>
-        <RadzenDataGridColumn TItem="Patient" Property="LastName" Title="Фамилия" />
-        <RadzenDataGridColumn TItem="Patient" Property="SurName" Title="Имя" />
+        <RadzenDataGridColumn TItem="Patient" Property="Surname" Title="Фамилия" />
+        <RadzenDataGridColumn TItem="Patient" Property="Firstname" Title="Имя" />
         <RadzenDataGridColumn TItem="Patient" Property="Patronymic" Title="Отчество" />
-        <RadzenDataGridColumn TItem="Patient" Property="Age" Title="Возраст" />
-        <RadzenDataGridColumn TItem="Patient" Property="Snils" Title="СНИЛС" />
-        <RadzenDataGridColumn TItem="Patient" Property="Add. Info" Title="Доп. Инфо" />
+        <RadzenDataGridColumn TItem="Patient" Property="BirthDate" Title="Возраст" />
+        <RadzenDataGridColumn TItem="Patient" Property="Snils.DocumentNumber" Title="СНИЛС" />
+        <RadzenDataGridColumn Width="160px" TItem="Patient" Title="Дополнительно">
+            <Template Context="data">
+                <RadzenButton ButtonStyle="ButtonStyle.Info" Variant="Variant.Flat" Shade="Shade.Lighter" Text="Подробнее" Click="@(args => OnClick("Кнопка"))"  />
+            </Template>
+        </RadzenDataGridColumn>
     </Columns>
 </RadzenDataGrid>
 @code {
     List<Patient> data = new List<Patient>();
+    int a;
+    protected override void OnInitialized()
+    {
+        string json = File.ReadAllText("patients.json");
+        data = JsonSerializer.Deserialize<List<Patient>>(json, new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+        Console.WriteLine();
+    }
+
+    public string ButtonName;
+    void OnClick(string buttonName)
+    {
+        ButtonName = buttonName;
+    }
 }

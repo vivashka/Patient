@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWork.Vegastar", "TestWork.Vegastar\TestWork.Vegastar.csproj", "{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWork.Vegastar", "TestWork.Vegastar\TestWork.Vegastar.csproj", "{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,11 @@ Global
 		{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55A01D06-02A4-475B-9A1E-72A3F3B9F5DF}
 	EndGlobalSection
 EndGlobal

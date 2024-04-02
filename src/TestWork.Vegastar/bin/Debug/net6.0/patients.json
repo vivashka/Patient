@@ -158,6 +158,7 @@
       "Flat": null,
       "Floor": null
     }
+  },
   {
     "Firstname": "Марина",
     "Surname": "Панов",
@@ -431,7 +432,7 @@
       "Flat": 88,
       "Floor": null
     }
-  }
+  },
   {
     "Firstname": "Милен",
     "Surname": "Зуев",
@@ -525,7 +526,7 @@
       "Flat": null,
       "Floor": null
     }
-  }
+  },
   {
     "Firstname": "Еремей",
     "Surname": "Мишина",
