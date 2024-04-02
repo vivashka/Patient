@@ -1,20 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "4inQlTxMjq9P1IzvbyzHR6Vf/Bu80Lrf4d9D2NatNSh9ISVsqVzYtmo6tfPhHsSbxVOaQODa9daENnV7nWx7Zg==",
+  "dgSpecHash": "nUNDPakTx8GNT1yO2kC+/3ACxX6V4eLxLXHLWT9rqdtxWizM+KrvsZ7LFTMrOJuZ5NFtZakvcu0Wa0c1CNT4Dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikita\\Downloads\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+  "projectFilePath": "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\vovac\\.nuget\\packages\\dartsassbuilder\\1.0.0\\dartsassbuilder.1.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.25\\microsoft.aspnetcore.authorization.6.0.25.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.25\\microsoft.aspnetcore.components.6.0.25.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.25\\microsoft.aspnetcore.components.analyzers.6.0.25.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.0\\microsoft.aspnetcore.components.forms.6.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.0\\microsoft.aspnetcore.components.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.25\\microsoft.aspnetcore.metadata.6.0.25.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4\\microsoft.extensions.logging.abstractions.6.0.4.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.jsinterop\\6.0.0\\microsoft.jsinterop.6.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\radzen.blazor\\4.29.1\\radzen.blazor.4.29.1.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\system.linq.dynamic.core\\1.3.7\\system.linq.dynamic.core.1.3.7.nupkg.sha512",
+    "C:\\Users\\vovac\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.44:5555/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }

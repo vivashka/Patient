@@ -1,3 +1,19 @@
 ﻿@page "/"
+@using Models
 
-<h1>Hello, world!</h1>
+<div class="d-flex m-20">
+    <RadzenText TextStyle="TextStyle.H5">Header</RadzenText>
+</div>
+<RadzenDataGrid TItem="Patient" Data="@data">
+    <Columns>
+        <RadzenDataGridColumn TItem="Patient" Property="LastName" Title="Фамилия" />
+        <RadzenDataGridColumn TItem="Patient" Property="SurName" Title="Имя" />
+        <RadzenDataGridColumn TItem="Patient" Property="Patronymic" Title="Отчество" />
+        <RadzenDataGridColumn TItem="Patient" Property="Age" Title="Возраст" />
+        <RadzenDataGridColumn TItem="Patient" Property="Snils" Title="СНИЛС" />
+        <RadzenDataGridColumn TItem="Patient" Property="Add. Info" Title="Доп. Инфо" />
+    </Columns>
+</RadzenDataGrid>
+@code {
+    List<Patient> data = new List<Patient>();
+}
