@@ -61,6 +61,9 @@ C:\Users\vovac\source\repos\testwork.vegastar.blazor\src\TestWork.Vegastar\bin\D
 C:\Users\vovac\source\repos\testwork.vegastar.blazor\src\TestWork.Vegastar\obj\Debug\net6.0\TestWork.Vegastar.csproj.AssemblyReference.cache
 C:\Users\vovac\source\repos\testwork.vegastar.blazor\src\TestWork.Vegastar\obj\Debug\net6.0\TestWork.Vegastar.csproj.CopyComplete
 C:\Users\vovac\source\repos\testwork.vegastar.blazor\src\TestWork.Vegastar\bin\Debug\net6.0\patients.json
+<<<<<<< HEAD
+C:\Users\vovac\source\repos\testwork.vegastar.blazor\src\TestWork.Vegastar\bin\Debug\net6.0\Newtonsoft.Json.dll
+=======
 C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Vegastar\obj\Debug\net6.0\TestWork.Vegastar.csproj.AssemblyReference.cache
 C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Vegastar\obj\Debug\net6.0\TestWork.Vegastar.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Vegastar\obj\Debug\net6.0\TestWork.Vegastar.AssemblyInfoInputs.cache
@@ -98,3 +101,4 @@ C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Veg
 C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Vegastar\obj\Debug\net6.0\TestWork.Vegastar.genruntimeconfig.cache
 C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Vegastar\obj\Debug\net6.0\ref\TestWork.Vegastar.dll
 C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Vegastar\bin\Debug\net6.0\Newtonsoft.Json.dll
+>>>>>>> 6522f9ae6ecc6426a9bd0bb0a38473a2c280c55b

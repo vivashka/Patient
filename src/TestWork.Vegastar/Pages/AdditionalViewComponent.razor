@@ -1,0 +1,33 @@
+﻿@using Models
+<RadzenText TextStyle="TextStyle.Body1" style="font-size:20px"><strong>Подробная информация о пациенте:</strong></RadzenText>
+<RadzenStack Orientation="Orientation.Horizontal" Gap="15px"   JustifyContent="JustifyContent.Center">
+    <RadzenColumn Orientation="Orientation.Vertical"  Gap="0">
+            <RadzenText TextStyle="TextStyle.Body1"><strong>Имя:</strong> @OnePatient.Firstname</RadzenText>
+            <RadzenText TextStyle="TextStyle.Body1"><strong>Фамилия:</strong> @OnePatient.Surname</RadzenText>
+            <RadzenText TextStyle="TextStyle.Body1"><strong>Отчество:</strong> @OnePatient.Patronymic</RadzenText>
+    </RadzenColumn>
+    <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
+        <RadzenText TextStyle="TextStyle.Body1" ><strong>Дата рождения:</strong> @OnePatient.BirthDate</RadzenText>
+        <RadzenText TextStyle="TextStyle.Body1"><strong>Пол:</strong> @OnePatient.Gender</RadzenText>
+    </RadzenColumn>
+    <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
+        <RadzenText TextStyle="TextStyle.Body1"><strong>СНИЛС:</strong> @OnePatient.Snils.DocumentNumber</RadzenText>
+        <RadzenText TextStyle="TextStyle.Body1"><strong>Полис:</strong> @OnePatient.Polis.DocumentNumber</RadzenText>
+    </RadzenColumn>
+</RadzenStack>
+
+
+
+
+<RadzenColumn Orientation="Orientation.Vertical" Gap="0">
+    <RadzenText TextStyle="TextStyle.Body1" style="font-size:20px"><strong>Адрес проживания:</strong></RadzenText>
+    <RadzenText TextStyle=TextStyle.Body1><strong>Город:</strong> @OnePatient.Adress.City</RadzenText>
+    <RadzenText TextStyle="TextStyle.Body1"><strong>Регион:</strong> @OnePatient.Adress.Region</RadzenText>
+    <RadzenText TextStyle="TextStyle.Body1"><strong>Улица:</strong> @OnePatient.Adress.Street</RadzenText>
+    <RadzenText TextStyle="TextStyle.Body1"><strong>Номер улицы:</strong> @OnePatient.Adress.House</RadzenText>
+    <RadzenText TextStyle="TextStyle.Body1"><strong>Квартира:</strong> @OnePatient.Adress.Flat</RadzenText>
+    <RadzenText TextStyle="TextStyle.Body1"><strong>Этаж:</strong> @OnePatient.Adress.Floor</RadzenText>
+</RadzenColumn>
+@code {
+    [Parameter] public Patient OnePatient { get; set; }
+}

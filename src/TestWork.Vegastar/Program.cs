@@ -1,9 +1,12 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Radzen;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddScoped<DialogService>();
+builder.Services.AddScoped<NotificationService>();
 
 var app = builder.Build();
 

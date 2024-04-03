@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
+<<<<<<< HEAD
+VisualStudioVersion = 17.7.34024.191
+=======
 VisualStudioVersion = 17.9.34723.18
+>>>>>>> 6522f9ae6ecc6426a9bd0bb0a38473a2c280c55b
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWork.Vegastar", "TestWork.Vegastar\TestWork.Vegastar.csproj", "{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}"
 EndProject
@@ -20,6 +24,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
+		SolutionGuid = {2BDE4AE8-1BB9-4BF9-A9C3-2F53E7065619}
+=======
 		SolutionGuid = {55A01D06-02A4-475B-9A1E-72A3F3B9F5DF}
+>>>>>>> 6522f9ae6ecc6426a9bd0bb0a38473a2c280c55b
 	EndGlobalSection
 EndGlobal
