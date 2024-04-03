@@ -1,17 +1,17 @@
 ﻿@page "/"
 @using Models
 @using System.Text.Json;
-<<<<<<< HEAD
+
 @using System.Text.Json.Serialization;
 
 @inject DialogService DialogService
-=======
+
 >>>>>>> 6522f9ae6ecc6426a9bd0bb0a38473a2c280c55b
 
 <div class="d-flex m-20">
     <RadzenText TextStyle="TextStyle.H5">Header</RadzenText>
 </div>
-<<<<<<< HEAD
+
 <RadzenDataGrid TItem="Patient" Data="@Data">
     <Columns>
         <RadzenDataGridColumn TItem="Patient" Property="Firstname" Title="Фамилия" />
@@ -23,29 +23,15 @@
             <Template Context="Data">
                 <RadzenButton Click=@(args => ShowCloseableFromOverlayDialog(Data)) Text="Подробнее"
                     ButtonStyle="ButtonStyle.Primary" />
-=======
-<RadzenDataGrid Ttems="Patient, AdditionalInfo" Data="@data">
-    <Columns>
-        <RadzenDataGridColumn TItem="Patient" Property="Surname" Title="Фамилия" />
-        <RadzenDataGridColumn TItem="Patient" Property="Firstname" Title="Имя" />
-        <RadzenDataGridColumn TItem="Patient" Property="Patronymic" Title="Отчество" />
-        <RadzenDataGridColumn TItem="Patient" Property="BirthDate" Title="Возраст" />
-        <RadzenDataGridColumn TItem="Patient" Property="Snils.DocumentNumber" Title="СНИЛС" />
-        <RadzenDataGridColumn Width="160px" TItem="Patient" Title="Дополнительно">
-            <Template Context="data">
-                <RadzenButton ButtonStyle="ButtonStyle.Info" Variant="Variant.Flat" Shade="Shade.Lighter" Text="Подробнее" Click="@(args => OnClick("Кнопка"))"  />
->>>>>>> 6522f9ae6ecc6426a9bd0bb0a38473a2c280c55b
             </Template>
         </RadzenDataGridColumn>
-    </Columns>
+        </Columns>
 </RadzenDataGrid>
-
 @code {
-<<<<<<< HEAD
-        [Parameter] public List<Patient> Data { get; set; } = new List<Patient>();
+    [Parameter] public List<Patient> Data { get; set; } = new List<Patient>();
     protected override void OnInitialized()
     {
-        string json = File.ReadAllText(@"C:\Users\vovac\source\repos\testwork.vegastar.blazor\src\TestWork.Vegastar\patients.json");
+        string json = File.ReadAllText(@"patients.json");
         Data = JsonSerializer.Deserialize<List<Patient>>(json.ToString(),
         new JsonSerializerOptions() { IgnoreNullValues = true });
     }
@@ -54,20 +40,5 @@
     {
         await DialogService.OpenAsync("", ds => @<AdditionalViewComponent OnePatient="patient" />,
         new DialogOptions() { CloseDialogOnOverlayClick = true, Width = "max-content", ShowTitle = false});
-=======
-    List<Patient> data = new List<Patient>();
-    int a;
-    protected override void OnInitialized()
-    {
-        string json = File.ReadAllText("patients.json");
-        data = JsonSerializer.Deserialize<List<Patient>>(json, new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
-        Console.WriteLine();
-    }
-
-    public string ButtonName;
-    void OnClick(string buttonName)
-    {
-        ButtonName = buttonName;
->>>>>>> 6522f9ae6ecc6426a9bd0bb0a38473a2c280c55b
     }
 }

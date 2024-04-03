@@ -9,33 +9,35 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestWork.Vegastar
 build_property.RootNamespace = TestWork.Vegastar
-build_property.ProjectDir = C:\Users\vovac\source\repos\testwork.vegastar.blazor\src\TestWork.Vegastar\
+build_property.ProjectDir = C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Vegastar\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\vovac\source\repos\testwork.vegastar.blazor\src\TestWork.Vegastar
+build_property.MSBuildProjectDirectory = C:\Users\Владимир\Source\Repos\testwork.vegastar.blazor\src\TestWork.Vegastar
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vovac/source/repos/testwork.vegastar.blazor/src/TestWork.Vegastar/App.razor]
+[C:/Users/Владимир/Source/Repos/testwork.vegastar.blazor/src/TestWork.Vegastar/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovac/source/repos/testwork.vegastar.blazor/src/TestWork.Vegastar/MainLayout.razor]
+[C:/Users/Владимир/Source/Repos/testwork.vegastar.blazor/src/TestWork.Vegastar/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovac/source/repos/testwork.vegastar.blazor/src/TestWork.Vegastar/Pages/AdditionalViewComponent.razor]
+[C:/Users/Владимир/Source/Repos/testwork.vegastar.blazor/src/TestWork.Vegastar/Pages/AdditionalViewComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaXRpb25hbFZpZXdDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovac/source/repos/testwork.vegastar.blazor/src/TestWork.Vegastar/Pages/Index.razor]
+[C:/Users/Владимир/Source/Repos/testwork.vegastar.blazor/src/TestWork.Vegastar/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovac/source/repos/testwork.vegastar.blazor/src/TestWork.Vegastar/_Imports.razor]
+[C:/Users/Владимир/Source/Repos/testwork.vegastar.blazor/src/TestWork.Vegastar/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovac/source/repos/testwork.vegastar.blazor/src/TestWork.Vegastar/Pages/_Host.cshtml]
+[C:/Users/Владимир/Source/Repos/testwork.vegastar.blazor/src/TestWork.Vegastar/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
