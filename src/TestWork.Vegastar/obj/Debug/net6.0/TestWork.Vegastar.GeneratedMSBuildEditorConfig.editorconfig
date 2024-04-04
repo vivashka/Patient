@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaXRpb25hbFZpZXdDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Владимир/Source/Repos/testwork.vegastar.blazor/src/TestWork.Vegastar/Pages/AddPatientViewComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUGF0aWVudFZpZXdDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Владимир/Source/Repos/testwork.vegastar.blazor/src/TestWork.Vegastar/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

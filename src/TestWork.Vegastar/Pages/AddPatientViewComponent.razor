@@ -1,0 +1,114 @@
+﻿@using Models
+@inject DialogService DialogService
+
+<RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" class="">
+    <RadzenText TextStyle="TextStyle.Body1" style="font-size:20px"> <strong>Подробная информация о пациенте:</strong></RadzenText>
+    <RadzenButton TextStyle="TextStyle.Body1" style="font-size:36px" Click=@(args => CloseButtton()) Text="&times;" ButtonStyle="ButtonStyle.Danger" class="rz-border-radius-10" />
+</RadzenStack>
+
+
+<RadzenTemplateForm Data="@AddPatient" Submit="@((Patient args) => { Submit(args); })">
+    <RadzenStack JustifyContent="JustifyContent.SpaceBetween" Orientation="Orientation.Horizontal" Gap="15px">
+        <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
+            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                <strong>Имя:</strong>
+                <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Firstname" />
+            </RadzenText>
+            <RadzenText TextStyle="TextStyle.Body1">
+                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                    <strong>Фамилия:</strong>
+                    <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Surname" />
+                </RadzenText>
+            </RadzenText>
+            <RadzenText TextStyle="TextStyle.Body1">
+                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                    <strong>Отчество:</strong>
+                    <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Patronymic" />
+                </RadzenText>
+            </RadzenText>
+        </RadzenColumn>
+        <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
+            <RadzenText TextStyle="TextStyle.Body1">
+                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                    <strong>Дата рождения:</strong>
+                    <RadzenDatePicker @bind-Value="@AddPatient.BirthDate" Max="DateTime.Today" DateFormat="MM-dd-yyyy" />
+                </RadzenText>
+            </RadzenText>
+            <RadzenText TextStyle="TextStyle.Body1">
+                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                    <strong>Пол:</strong>
+                    <RadzenDropDown Style="height:max-content;width:max-content;" @bind-Value="AddPatient.Gender" Data="@Enum.GetValues(typeof(GenderType))" />
+                </RadzenText>
+            </RadzenText>
+        </RadzenColumn>
+        <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
+            <RadzenText TextStyle="TextStyle.Body1">
+                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                    <strong>СНИЛС:</strong>
+                    <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Snils.DocumentNumber" />
+                </RadzenText>
+            </RadzenText>
+            <RadzenText TextStyle="TextStyle.Body1">
+                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                    <strong>Полис:</strong>
+                    <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Polis.DocumentNumber" />
+                </RadzenText>
+            </RadzenText>
+        </RadzenColumn>
+    </RadzenStack>
+
+
+
+
+    <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
+        <RadzenText TextStyle="TextStyle.Body1" style="font-size:20px"><strong>Адрес проживания:</strong></RadzenText>
+        <RadzenText TextStyle=TextStyle.Body1>
+            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                <strong>Город:</strong>
+                <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.City" />
+            </RadzenText>
+        </RadzenText>
+        <RadzenText TextStyle="TextStyle.Body1">
+            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                <strong>Регион:</strong>
+                <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Region" />
+            </RadzenText>
+        </RadzenText>
+        <RadzenText TextStyle="TextStyle.Body1">
+            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                <strong>Улица:</strong>
+                <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Street" />
+            </RadzenText>
+        </RadzenText>
+        <RadzenText TextStyle="TextStyle.Body1">
+            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                <strong>Номер улицы:</strong>
+                <RadzenNumeric Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.House" />
+            </RadzenText>
+        </RadzenText>
+        <RadzenText TextStyle="TextStyle.Body1">
+            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                <strong>Квартира:</strong>
+                <RadzenNumeric Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Flat" />
+            </RadzenText>
+        </RadzenText>
+        <RadzenText TextStyle="TextStyle.Body1">
+            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
+                <strong>Квартира:</strong>
+                <RadzenNumeric Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Floor" />
+            </RadzenText>
+        </RadzenText>
+    </RadzenColumn>
+</RadzenTemplateForm>
+@code {
+    public Patient AddPatient = new Patient();
+    void CloseButtton()
+    {
+        DialogService.Close();
+    }
+
+    void Submit(Patient arg)
+    {
+        //
+    }
+}

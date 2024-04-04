@@ -6,34 +6,47 @@ namespace TestWork.Vegastar.Models
     public class Patient
     {
 
-        public string Firstname { get; set; } = "Отсутствует";
+        public string Firstname { get; set; }
 
-        public string Surname { get; set; } = "Отсутствует";
-        public string Patronymic { get; set; } = "Отсутствует";
+        public string Surname { get; set; }
 
-        public string BirthDate { get; set; } = "Отсутствует";
+        public string Patronymic { get; set; }
 
-        public int Gender { get; set; } = -1;
+        public DateTime BirthDate { get; set; }
+
+        public GenderType Gender { get; set; }
 
         public Insurance Snils { get; set; } = new Insurance();
 
         public Insurance Polis { get; set; } = new Insurance();
 
-        public Adress Adress { get; set; } = new Adress();
+        public Address Address { get; set; } = new Address();
     }
-    public class Insurance
+    public enum GenderType
     {
-        public int DocumentType { get; set; } = -1;
-        public string DocumentNumber { get; set; } = "Отсутствует";
+        Мужской = 1,
+        Женский = 2
     }
 
-    public class Adress
+    public enum DocumentType
     {
-        public string City { get; set; } = "Отсутствует";
-        public string Region { get; set; } = "Отсутствует";
-        public string Street { get; set; } = "Отсутствует";
-        public int House { get; set; } = -1;
-        public int Flat { get; set; } = -1;
-        public int Floor { get; set; } = -1;
+        СНИЛС = 1,
+        Полис = 2
+    }
+
+    public class Insurance
+    {
+        public DocumentType DocumentType { get; set; }
+        public string DocumentNumber { get; set; }
+    }
+
+    public class Address
+    {
+        public string City { get; set; }
+        public string Region { get; set; }
+        public string Street { get; set; }
+        public int? House { get; set; }
+        public int? Flat { get; set; }
+        public int? Floor { get; set; }
     }
 }

@@ -6,22 +6,34 @@
 
 @inject DialogService DialogService
 
->>>>>>> 6522f9ae6ecc6426a9bd0bb0a38473a2c280c55b
 
-<div class="d-flex m-20">
-    <RadzenText TextStyle="TextStyle.H5">Header</RadzenText>
-</div>
+
+<RadzenText TextStyle="TextStyle.H5">Header</RadzenText>
+
+<RadzenButton TextStyle="TextStyle.Body1" Click=@(args => ShowAddPatient()) Text="Добавить пациента" ButtonStyle="ButtonStyle.Primary" class="rz-border-radius-10" />
 
 <RadzenDataGrid TItem="Patient" Data="@Data">
-    <Columns>
+    <Columns >
         <RadzenDataGridColumn TItem="Patient" Property="Firstname" Title="Фамилия" />
         <RadzenDataGridColumn TItem="Patient" Property="Surname" Title="Имя" />
-        <RadzenDataGridColumn TItem="Patient" Property="Patronymic" Title="Отчество" />
-        <RadzenDataGridColumn TItem="Patient" Property="BirthDate" Title="Возраст" />
-        <RadzenDataGridColumn TItem="Patient" Property="Snils.DocumentNumber" Title="СНИЛС" />
+        <RadzenDataGridColumn TItem="Patient" Property="Patronymic" Title="Отчество">
+            <Template Context="Data">
+                <RadzenText> @(Data.Patronymic ?? "Отсутствует") </RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="Patient" Property="BirthDate" Title="Возраст">
+            <Template Context="Data">
+                <RadzenText> @((new DateTime(1, 1, 1) + DateTime.UtcNow.Subtract(Data.BirthDate)).Year - 1) </RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="Patient" Property="Snils.DocumentNumber" Title="СНИЛС">
+            <Template Context="Data">
+                <RadzenText> @(Data.Snils.DocumentNumber ?? "Отсутствует") </RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
         <RadzenDataGridColumn TItem="Patient" Title="Доп. Инфо">
             <Template Context="Data">
-                <RadzenButton Click=@(args => ShowCloseableFromOverlayDialog(Data)) Text="Подробнее"
+                <RadzenButton Click=@(args => ShowAdditionalInfo(Data)) Text="Подробнее"
                     ButtonStyle="ButtonStyle.Primary" />
             </Template>
         </RadzenDataGridColumn>
@@ -32,13 +44,17 @@
     protected override void OnInitialized()
     {
         string json = File.ReadAllText(@"patients.json");
-        Data = JsonSerializer.Deserialize<List<Patient>>(json.ToString(),
+        Data = JsonSerializer.Deserialize < List <Patient>> (json,
         new JsonSerializerOptions() { IgnoreNullValues = true });
     }
-
-    async Task ShowCloseableFromOverlayDialog(Patient patient)
+    async Task ShowAdditionalInfo(Patient patient)
     {
         await DialogService.OpenAsync("", ds => @<AdditionalViewComponent OnePatient="patient" />,
         new DialogOptions() { CloseDialogOnOverlayClick = true, Width = "max-content", ShowTitle = false});
+    }
+    async Task ShowAddPatient()
+    {
+        await DialogService.OpenAsync("", ds => @<AddPatientViewComponent />,
+         new DialogOptions() { CloseDialogOnOverlayClick = true, Width = "max-content", ShowTitle = false });
     }
 }
