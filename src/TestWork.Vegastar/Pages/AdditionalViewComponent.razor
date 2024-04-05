@@ -1,4 +1,5 @@
 ﻿@using Models
+
 @inject DialogService DialogService
 
 <RadzenStack Orientation="Orientation.Horizontal"  JustifyContent="JustifyContent.SpaceBetween" class="">
@@ -36,6 +37,7 @@
     <RadzenText TextStyle="TextStyle.Body1"><strong>Квартира:</strong> @(OnePatient.Address.Flat?.ToString() ?? "Отсутствует")</RadzenText>
     <RadzenText TextStyle="TextStyle.Body1"><strong>Этаж:</strong> @(OnePatient.Address.Floor?.ToString() ?? "Отсутствует")</RadzenText>
 </RadzenColumn>
+
 @code {
     [Parameter] public Patient OnePatient { get; set; }
     void CloseButtton()

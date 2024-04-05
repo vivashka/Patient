@@ -12,7 +12,7 @@
 
 <RadzenButton TextStyle="TextStyle.Body1" Click=@(args => ShowAddPatient()) Text="Добавить пациента" ButtonStyle="ButtonStyle.Primary" class="rz-border-radius-10" />
 
-<RadzenDataGrid TItem="Patient" Data="@Data">
+<RadzenDataGrid @ref="patientsGrid" TItem="Patient" Data="@Data">
     <Columns >
         <RadzenDataGridColumn TItem="Patient" Property="Firstname" Title="Фамилия" />
         <RadzenDataGridColumn TItem="Patient" Property="Surname" Title="Имя" />
@@ -39,22 +39,43 @@
         </RadzenDataGridColumn>
         </Columns>
 </RadzenDataGrid>
+
 @code {
-    [Parameter] public List<Patient> Data { get; set; } = new List<Patient>();
+    [Parameter] public List<Patient>? Data { get; set; } = new List<Patient>();
+    RadzenDataGrid<Patient> patientsGrid;
+    
     protected override void OnInitialized()
     {
         string json = File.ReadAllText(@"patients.json");
         Data = JsonSerializer.Deserialize < List <Patient>> (json,
-        new JsonSerializerOptions() { IgnoreNullValues = true });
+            new JsonSerializerOptions() { IgnoreNullValues = true });
     }
+
     async Task ShowAdditionalInfo(Patient patient)
     {
         await DialogService.OpenAsync("", ds => @<AdditionalViewComponent OnePatient="patient" />,
         new DialogOptions() { CloseDialogOnOverlayClick = true, Width = "max-content", ShowTitle = false});
     }
+
     async Task ShowAddPatient()
     {
-        await DialogService.OpenAsync("", ds => @<AddPatientViewComponent />,
+        await DialogService.OpenAsync("", ds => @<AddPatientViewComponent AddToList="AddNewPatient" />,
          new DialogOptions() { CloseDialogOnOverlayClick = true, Width = "max-content", ShowTitle = false });
     }
+
+
+    async Task AddNewPatient(Patient newPatient)
+    {
+        Data.Insert(0, newPatient);
+        await patientsGrid.InsertRow(newPatient);
+        JsonSerializerOptions option = new JsonSerializerOptions {
+                WriteIndented = true,
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            };
+        string newJson = JsonSerializer.Serialize(Data, option);
+        File.WriteAllText(@"patients.json", newJson);
+        
+    }
+    
+
 }

@@ -3,44 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\pages\\additionalviewcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\pages\\additionalviewcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\pages\\addpatientviewcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\pages\\addpatientviewcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\patients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\patients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\patients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\patients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\pages\\addpatientviewcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\pages\\addpatientviewcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\pages\\additionalviewcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\pages\\additionalviewcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\testwork.vegastar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\testwork.vegastar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\testwork.vegastar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\testwork.vegastar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -66,10 +78,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestWork.Vegastar\\obj\\project.assets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\testwork.vegastar\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{68A30565-B3D7-4A8E-94EA-3BA7F19B9217}|TestWork.Vegastar\\TestWork.Vegastar.csproj|solutionrelative:testwork.vegastar\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -80,141 +88,46 @@
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddPatientViewComponent.razor",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\AddPatientViewComponent.razor",
-              "RelativeDocumentMoniker": "TestWork.Vegastar\\Pages\\AddPatientViewComponent.razor",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\AddPatientViewComponent.razor",
-              "RelativeToolTip": "TestWork.Vegastar\\Pages\\AddPatientViewComponent.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T18:35:19.883Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "TestWork.Vegastar\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Models\\Patient.cs",
-              "RelativeToolTip": "TestWork.Vegastar\\Models\\Patient.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA4AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:37:49.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdditionalViewComponent.razor",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\AdditionalViewComponent.razor",
-              "RelativeDocumentMoniker": "TestWork.Vegastar\\Pages\\AdditionalViewComponent.razor",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\AdditionalViewComponent.razor",
-              "RelativeToolTip": "TestWork.Vegastar\\Pages\\AdditionalViewComponent.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T16:31:31.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\Pages\\Index.razor",
               "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\Index.razor",
               "RelativeToolTip": "TestWork.Vegastar\\Pages\\Index.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAABOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-03T16:31:31.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "_Host.cshtml",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\_Host.cshtml",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\Pages\\_Host.cshtml",
               "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\_Host.cshtml",
               "RelativeToolTip": "TestWork.Vegastar\\Pages\\_Host.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAHAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-03T16:31:31.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\App.razor",
-              "RelativeDocumentMoniker": "TestWork.Vegastar\\App.razor",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\App.razor",
-              "RelativeToolTip": "TestWork.Vegastar\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T16:31:31.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "patients.json",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\patients.json",
-              "RelativeDocumentMoniker": "TestWork.Vegastar\\patients.json",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\patients.json",
-              "RelativeToolTip": "TestWork.Vegastar\\patients.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T16:31:31.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Program.cs",
-              "RelativeDocumentMoniker": "TestWork.Vegastar\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Program.cs",
-              "RelativeToolTip": "TestWork.Vegastar\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T16:31:31.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\_Imports.razor",
-              "RelativeDocumentMoniker": "TestWork.Vegastar\\_Imports.razor",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\_Imports.razor",
-              "RelativeToolTip": "TestWork.Vegastar\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T16:31:31.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\appsettings.json",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\appsettings.json",
@@ -227,7 +140,140 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddPatientViewComponent.razor",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\AddPatientViewComponent.razor",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\Pages\\AddPatientViewComponent.razor",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\AddPatientViewComponent.razor",
+              "RelativeToolTip": "TestWork.Vegastar\\Pages\\AddPatientViewComponent.razor",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T18:35:19.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdditionalViewComponent.razor",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\AdditionalViewComponent.razor",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\Pages\\AdditionalViewComponent.razor",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Pages\\AdditionalViewComponent.razor",
+              "RelativeToolTip": "TestWork.Vegastar\\Pages\\AdditionalViewComponent.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA0AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:31:31.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Models\\Patient.cs",
+              "RelativeToolTip": "TestWork.Vegastar\\Models\\Patient.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA4wA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:37:49.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "patients.json",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\patients.json",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\patients.json",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\patients.json",
+              "RelativeToolTip": "TestWork.Vegastar\\patients.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T16:31:31.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\MainLayout.razor",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\MainLayout.razor",
+              "RelativeToolTip": "TestWork.Vegastar\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:31:31.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\App.razor",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\App.razor",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\App.razor",
+              "RelativeToolTip": "TestWork.Vegastar\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:31:31.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\_Imports.razor",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\_Imports.razor",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\_Imports.razor",
+              "RelativeToolTip": "TestWork.Vegastar\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:31:31.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Program.cs",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Program.cs",
+              "RelativeToolTip": "TestWork.Vegastar\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:31:31.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TestWork.Vegastar",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\TestWork.Vegastar.csproj",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+              "RelativeToolTip": "TestWork.Vegastar\\TestWork.Vegastar.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T06:13:47.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestWork.Vegastar",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+              "RelativeDocumentMoniker": "TestWork.Vegastar\\TestWork.Vegastar.csproj",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+              "RelativeToolTip": "TestWork.Vegastar\\TestWork.Vegastar.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T06:03:23.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -235,12 +281,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AQIAABoNAAAAAAAAAAAswCcNAACBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-04-03T16:36:23.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T16:36:23.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "project.assets.json",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\project.assets.json",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\obj\\project.assets.json",
@@ -252,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "project.packagespec.json",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\project.packagespec.json",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\obj\\project.packagespec.json",
@@ -264,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "TestWork.Vegastar.csproj.nuget.dgspec.json",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\TestWork.Vegastar.csproj.nuget.dgspec.json",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\obj\\TestWork.Vegastar.csproj.nuget.dgspec.json",
@@ -276,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "TestWork.Vegastar.csproj.nuget.g.props",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\TestWork.Vegastar.csproj.nuget.g.props",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\obj\\TestWork.Vegastar.csproj.nuget.g.props",
@@ -288,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "TestWork.Vegastar.csproj.nuget.g.targets",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\TestWork.Vegastar.csproj.nuget.g.targets",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\obj\\TestWork.Vegastar.csproj.nuget.g.targets",
@@ -300,19 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\MainLayout.razor",
-              "RelativeDocumentMoniker": "TestWork.Vegastar\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\MainLayout.razor",
-              "RelativeToolTip": "TestWork.Vegastar\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T16:31:31.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\README.md",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\README.md",
@@ -324,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TestWork.Vegastar\\Properties\\launchSettings.json",
@@ -333,10 +366,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-03T16:31:31.528Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

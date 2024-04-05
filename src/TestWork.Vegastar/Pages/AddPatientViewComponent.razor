@@ -1,114 +1,119 @@
 ﻿@using Models
+@using System.Text.Json;
+
+@using System.Text.Json.Serialization;
+
 @inject DialogService DialogService
 
-<RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" class="">
+<RadzenStack JustifyContent="JustifyContent.SpaceBetween" Orientation="Orientation.Horizontal" class="">
     <RadzenText TextStyle="TextStyle.Body1" style="font-size:20px"> <strong>Подробная информация о пациенте:</strong></RadzenText>
-    <RadzenButton TextStyle="TextStyle.Body1" style="font-size:36px" Click=@(args => CloseButtton()) Text="&times;" ButtonStyle="ButtonStyle.Danger" class="rz-border-radius-10" />
+    <RadzenText><RadzenButton TextStyle="TextStyle.Body1" style="font-size:32px" Click=@(() => CloseButtton()) Text="&times;" ButtonStyle="ButtonStyle.Danger" class="rz-border-radius-10" /></RadzenText>
 </RadzenStack>
 
 
-<RadzenTemplateForm Data="@AddPatient" Submit="@((Patient args) => { Submit(args); })">
-    <RadzenStack JustifyContent="JustifyContent.SpaceBetween" Orientation="Orientation.Horizontal" Gap="15px">
-        <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
-            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                <strong>Имя:</strong>
-                <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Firstname" />
-            </RadzenText>
-            <RadzenText TextStyle="TextStyle.Body1">
-                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                    <strong>Фамилия:</strong>
-                    <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Surname" />
-                </RadzenText>
-            </RadzenText>
-            <RadzenText TextStyle="TextStyle.Body1">
-                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                    <strong>Отчество:</strong>
-                    <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Patronymic" />
-                </RadzenText>
-            </RadzenText>
-        </RadzenColumn>
-        <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
-            <RadzenText TextStyle="TextStyle.Body1">
-                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                    <strong>Дата рождения:</strong>
-                    <RadzenDatePicker @bind-Value="@AddPatient.BirthDate" Max="DateTime.Today" DateFormat="MM-dd-yyyy" />
-                </RadzenText>
-            </RadzenText>
-            <RadzenText TextStyle="TextStyle.Body1">
-                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                    <strong>Пол:</strong>
-                    <RadzenDropDown Style="height:max-content;width:max-content;" @bind-Value="AddPatient.Gender" Data="@Enum.GetValues(typeof(GenderType))" />
-                </RadzenText>
-            </RadzenText>
-        </RadzenColumn>
-        <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
-            <RadzenText TextStyle="TextStyle.Body1">
-                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                    <strong>СНИЛС:</strong>
-                    <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Snils.DocumentNumber" />
-                </RadzenText>
-            </RadzenText>
-            <RadzenText TextStyle="TextStyle.Body1">
-                <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                    <strong>Полис:</strong>
-                    <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Polis.DocumentNumber" />
-                </RadzenText>
-            </RadzenText>
-        </RadzenColumn>
-    </RadzenStack>
+<RadzenTemplateForm Data="@AddPatient" Submit="@((Patient args) => { AddToList.InvokeAsync(args); })">
+    <RadzenStack Orientation="Orientation.Vertical">
+        <RadzenStack Orientation="Orientation.Horizontal">
 
+            <RadzenStack>
+                <RadzenRow>
+                    <RadzenColumn>
+                        <RadzenText><strong>Имя:</strong></RadzenText>
+                    </RadzenColumn>
+                    <RadzenColumn>
+                        <RadzenTextBox Name="FirstName" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Firstname" />
+                        <RadzenLengthValidator Component="FirstName" Min="2" Max="16" Text="Имя может содержить от 2 до 16 символов" />
+                    </RadzenColumn>
+                </RadzenRow>
+                <RadzenRow>
+                    <RadzenColumn>
+                        <RadzenText><strong>Фамилия:</strong></RadzenText>
+                    </RadzenColumn>
+                    <RadzenColumn>
+                        <RadzenTextBox Name="Surname" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Surname" />
+                        <RadzenLengthValidator Component="Surname" Min="2" Max="16" Text="Фамилия может содержить от 2 до 16 символов" />
+                    </RadzenColumn>
+                </RadzenRow>
+                <RadzenRow>
+                    <RadzenText><strong>Отчество:</strong></RadzenText>
+                    <RadzenTextBox Name="Patronymic" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Patronymic" />
+                </RadzenRow>
+            </RadzenStack>
 
+            <RadzenStack>
+                <RadzenRow>
+                    <RadzenColumn>
+                        <RadzenText><strong>Дата рождения:</strong></RadzenText>
+                    </RadzenColumn>
+                    <RadzenColumn>
+                        <RadzenDatePicker DateFormat="dd-MM-yyyy" Max="DateTime.Today" Name="BirthDate" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.BirthDate" />
+                    </RadzenColumn>
+                </RadzenRow>
+                <RadzenRow>
+                    <RadzenColumn>
+                        <RadzenText><strong>Пол:</strong></RadzenText>
+                    </RadzenColumn>
+                    <RadzenColumn>
+                        <RadzenDropDown Name="Gender" @bind-Value="AddPatient.Gender" Data="@(Enum.GetValues(typeof(GenderType)).Cast<GenderType>())" />
+                        <RadzenNumericRangeValidator Max="2" Min="1" Component="Gender" Text="Укажите пол" />
+                    </RadzenColumn>
+                </RadzenRow>
+            </RadzenStack>
 
+            <RadzenStack Style="padding-left:100px">
+                <RadzenRow>
+                    <RadzenColumn>
+                        <RadzenText><strong>СНИЛС:</strong></RadzenText>
+                    </RadzenColumn>
+                    <RadzenColumn>
+                        <RadzenTextBox Name="Snils.DocumentNumber" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Snils.DocumentNumber" />
+                    </RadzenColumn>
+                </RadzenRow>
+                <RadzenRow>
+                    <RadzenText><strong>Полис:</strong></RadzenText>
+                    <RadzenTextBox Name="Polis.DocumentNumber" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Polis.DocumentNumber" />
+                </RadzenRow>
+            </RadzenStack>
+        </RadzenStack>
 
-    <RadzenColumn Orientation="Orientation.Vertical" Gap="0">
         <RadzenText TextStyle="TextStyle.Body1" style="font-size:20px"><strong>Адрес проживания:</strong></RadzenText>
-        <RadzenText TextStyle=TextStyle.Body1>
-            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                <strong>Город:</strong>
-                <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.City" />
-            </RadzenText>
-        </RadzenText>
-        <RadzenText TextStyle="TextStyle.Body1">
-            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                <strong>Регион:</strong>
-                <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Region" />
-            </RadzenText>
-        </RadzenText>
-        <RadzenText TextStyle="TextStyle.Body1">
-            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                <strong>Улица:</strong>
-                <RadzenTextBox Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Street" />
-            </RadzenText>
-        </RadzenText>
-        <RadzenText TextStyle="TextStyle.Body1">
-            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                <strong>Номер улицы:</strong>
-                <RadzenNumeric Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.House" />
-            </RadzenText>
-        </RadzenText>
-        <RadzenText TextStyle="TextStyle.Body1">
-            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                <strong>Квартира:</strong>
-                <RadzenNumeric Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Flat" />
-            </RadzenText>
-        </RadzenText>
-        <RadzenText TextStyle="TextStyle.Body1">
-            <RadzenText Orientation="Orientation.Horizontal" TextStyle="TextStyle.Body1">
-                <strong>Квартира:</strong>
-                <RadzenNumeric Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Floor" />
-            </RadzenText>
-        </RadzenText>
-    </RadzenColumn>
+        <RadzenStack>
+            <RadzenRow>
+                <RadzenText><strong>Город:</strong></RadzenText>
+                <RadzenTextBox Name="Address.City" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.City" />
+            </RadzenRow>
+            <RadzenRow>
+                <RadzenText><strong>Регион:</strong></RadzenText>
+                <RadzenTextBox Name="Address.Region" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Region" />
+            </RadzenRow>
+            <RadzenRow>
+                <RadzenText><strong>Улица:</strong></RadzenText>
+                <RadzenTextBox Name="Address.Street" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Street" />
+            </RadzenRow>
+            <RadzenRow>
+                <RadzenText><strong>Номер улицы:</strong></RadzenText>
+                <RadzenNumeric Name="Address.House" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.House" />
+            </RadzenRow>
+            <RadzenRow>
+                <RadzenText><strong>Квартира:</strong></RadzenText>
+                <RadzenNumeric Name="Address.Flat" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Flat" />
+            </RadzenRow>
+            <RadzenRow>
+                <RadzenText><strong>Этаж:</strong></RadzenText>
+                <RadzenNumeric Name="Address.Floor" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Floor" />
+            </RadzenRow>
+        </RadzenStack>
+    </RadzenStack>
+    <RadzenButton Text="Созранить" ButtonType="ButtonType.Submit" ButtonStyle="ButtonStyle.Primary" />
+
 </RadzenTemplateForm>
+
 @code {
-    public Patient AddPatient = new Patient();
+    [Parameter] public Patient AddPatient { get; set; } = new Patient();
     void CloseButtton()
     {
         DialogService.Close();
     }
+    [Parameter] public EventCallback<Patient> AddToList { get; set; }
 
-    void Submit(Patient arg)
-    {
-        //
-    }
 }
