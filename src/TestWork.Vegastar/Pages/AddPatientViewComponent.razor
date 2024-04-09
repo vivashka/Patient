@@ -31,12 +31,13 @@
                     </RadzenColumn>
                     <RadzenColumn>
                         <RadzenTextBox Name="Surname" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Surname" />
-                        <RadzenLengthValidator Component="Surname" Min="2" Max="16" Text="Фамилия может содержить от 2 до 16 символов" />
+                        <RadzenLengthValidator Component="Surname" Min="2" Max="32" Text="Фамилия может содержить от 2 до 32 символов" />
                     </RadzenColumn>
                 </RadzenRow>
                 <RadzenRow>
                     <RadzenText><strong>Отчество:</strong></RadzenText>
                     <RadzenTextBox Name="Patronymic" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Patronymic" />
+                    <RadzenCustomValidator Component="Patronymic" Validator="@(() => Validators.ValidatePatronymicOptional(AddPatient.Patronymic))" Text="Отчество может содержить от 2 до 32 символов" />
                 </RadzenRow>
             </RadzenStack>
 
@@ -47,6 +48,7 @@
                     </RadzenColumn>
                     <RadzenColumn>
                         <RadzenDatePicker DateFormat="dd-MM-yyyy" Max="DateTime.Today" Name="BirthDate" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.BirthDate" />
+                        <RadzenRequiredValidator Component="BirthDate" Text="Укажите дату рождения" />
                     </RadzenColumn>
                 </RadzenRow>
                 <RadzenRow>
@@ -66,12 +68,14 @@
                         <RadzenText><strong>СНИЛС:</strong></RadzenText>
                     </RadzenColumn>
                     <RadzenColumn>
-                        <RadzenTextBox Name="Snils.DocumentNumber" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Snils.DocumentNumber" />
+                        <RadzenTextBox Name="Snils" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Snils.DocumentNumber" />
+                        <RadzenCustomValidator Component="Snils" Validator="@(() => Validators.ValidateNumber(AddPatient.Snils.DocumentNumber, 11))" Text="Снилс состоит из 11 цифр" />
                     </RadzenColumn>
                 </RadzenRow>
                 <RadzenRow>
                     <RadzenText><strong>Полис:</strong></RadzenText>
-                    <RadzenTextBox Name="Polis.DocumentNumber" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Polis.DocumentNumber" />
+                    <RadzenTextBox Name="Polis" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Polis.DocumentNumber" />
+                    <RadzenCustomValidator Component="Polis" Validator="@(() => Validators.ValidateNumber(AddPatient.Polis.DocumentNumber, 16))" Text="Полис состоит из 11 цифр" />
                 </RadzenRow>
             </RadzenStack>
         </RadzenStack>
@@ -81,10 +85,12 @@
             <RadzenRow>
                 <RadzenText><strong>Город:</strong></RadzenText>
                 <RadzenTextBox Name="Address.City" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.City" />
+                <RadzenRequiredValidator Component="Address.City" Text="Укажите город" />
             </RadzenRow>
             <RadzenRow>
                 <RadzenText><strong>Регион:</strong></RadzenText>
                 <RadzenTextBox Name="Address.Region" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Region" />
+                <RadzenRequiredValidator Component="Address.City" Text="Укажите регион" />
             </RadzenRow>
             <RadzenRow>
                 <RadzenText><strong>Улица:</strong></RadzenText>
@@ -93,14 +99,17 @@
             <RadzenRow>
                 <RadzenText><strong>Номер улицы:</strong></RadzenText>
                 <RadzenNumeric Name="Address.House" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.House" />
+                <RadzenCustomValidator Component="Polis" Validator="@(() => Validators.ValidateNumbericOptional(AddPatient.Address.House.ToString(), 5))" Text="Номер дома не может превосходить 5 значное число" />
             </RadzenRow>
             <RadzenRow>
                 <RadzenText><strong>Квартира:</strong></RadzenText>
                 <RadzenNumeric Name="Address.Flat" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Flat" />
+                <RadzenCustomValidator Component="Polis" Validator="@(() => Validators.ValidateNumbericOptional(AddPatient.Address.Flat.ToString(), 5))" Text="Номер квартиры дома не может превосходить 5 значное число" />
             </RadzenRow>
             <RadzenRow>
                 <RadzenText><strong>Этаж:</strong></RadzenText>
                 <RadzenNumeric Name="Address.Floor" Style="height:max-content;width:max-content;" @bind-Value="@AddPatient.Address.Floor" />
+                <RadzenCustomValidator Component="Address.Floor" Validator="@(() => Validators.ValidateNumbericOptional(AddPatient.Address.Floor.ToString(), 3))" Text="Номер дома не может превосходить 3 значное число" />
             </RadzenRow>
         </RadzenStack>
     </RadzenStack>
@@ -110,10 +119,11 @@
 
 @code {
     [Parameter] public Patient AddPatient { get; set; } = new Patient();
+
+    [Parameter] public EventCallback<Patient> AddToList { get; set; }
+
     void CloseButtton()
     {
         DialogService.Close();
     }
-    [Parameter] public EventCallback<Patient> AddToList { get; set; }
-
 }

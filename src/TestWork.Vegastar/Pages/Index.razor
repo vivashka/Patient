@@ -6,8 +6,6 @@
 
 @inject DialogService DialogService
 
-
-
 <RadzenText TextStyle="TextStyle.H5">Header</RadzenText>
 
 <RadzenButton TextStyle="TextStyle.Body1" Click=@(args => ShowAddPatient()) Text="Добавить пациента" ButtonStyle="ButtonStyle.Primary" class="rz-border-radius-10" />
@@ -39,16 +37,28 @@
         </RadzenDataGridColumn>
         </Columns>
 </RadzenDataGrid>
+@if (Data == null)
+{
+    <RadzenText TextAlign="TextAlign.Center" TextStyle="TextStyle.H6">Файл не найден</RadzenText>
+}
 
 @code {
     [Parameter] public List<Patient>? Data { get; set; } = new List<Patient>();
     RadzenDataGrid<Patient> patientsGrid;
-    
+
     protected override void OnInitialized()
     {
-        string json = File.ReadAllText(@"patients.json");
-        Data = JsonSerializer.Deserialize < List <Patient>> (json,
+        if (File.Exists(@"patients.json"))
+        {
+            string? json = File.ReadAllText(@"patients.json");
+            Data = JsonSerializer.Deserialize<List<Patient>>(json,
             new JsonSerializerOptions() { IgnoreNullValues = true });
+        }
+        else
+        {
+            Data = null;
+        }
+
     }
 
     async Task ShowAdditionalInfo(Patient patient)
@@ -73,9 +83,6 @@
                 Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
             };
         string newJson = JsonSerializer.Serialize(Data, option);
-        File.WriteAllText(@"patients.json", newJson);
-        
+        File.WriteAllText(@"patients.json", newJson);   
     }
-    
-
 }

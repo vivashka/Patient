@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Владимир\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj": {}
+    "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Владимир\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj": {
+    "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Владимир\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+        "projectUniqueName": "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
         "projectName": "TestWork.Vegastar",
-        "projectPath": "C:\\Users\\Владимир\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
-        "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Владимир\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\",
+        "projectPath": "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+        "packagesPath": "C:\\Users\\vovac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vovac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\vovac\\OneDrive\\Документы\\LabLibrary\\LabLibrary\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +51,7 @@
             },
             "Radzen.Blazor": {
               "target": "Package",
-              "version": "[4.29.1, )"
+              "version": "[4.29.2, )"
             }
           },
           "imports": [
@@ -77,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

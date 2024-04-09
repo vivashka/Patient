@@ -212,7 +212,7 @@
           }
         }
       },
-      "Radzen.Blazor/4.29.1": {
+      "Radzen.Blazor/4.29.2": {
         "type": "package",
         "dependencies": {
           "DartSassBuilder": "1.0.0",
@@ -616,10 +616,10 @@
         "packageIcon.png"
       ]
     },
-    "Radzen.Blazor/4.29.1": {
-      "sha512": "VbgWbTEbMc2/8FkNLWMjRecTUoN+WZcVAcbAZshp6Yt1jILUB1sm1G4n/i2VCwqzVF5l9bwLxG97MSBBQnu8NQ==",
+    "Radzen.Blazor/4.29.2": {
+      "sha512": "4rF5P/9Dp+tvDMajXkDRorElwzZ8DUhfEp6h7Ln14Z7MIC/wok+hWPjsTY0rzs2LoDlgey3c2n/WrKL3VDRBXg==",
       "type": "package",
-      "path": "radzen.blazor/4.29.1",
+      "path": "radzen.blazor/4.29.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -640,7 +640,7 @@
         "lib/net8.0/Radzen.Blazor.xml",
         "lib/netstandard2.1/Radzen.Blazor.dll",
         "lib/netstandard2.1/Radzen.Blazor.xml",
-        "radzen.blazor.4.29.1.nupkg.sha512",
+        "radzen.blazor.4.29.2.nupkg.sha512",
         "radzen.blazor.nuspec",
         "staticwebassets/Radzen.Blazor.js",
         "staticwebassets/css/dark-base.css",
@@ -806,27 +806,27 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Newtonsoft.Json >= 13.0.3",
-      "Radzen.Blazor >= 4.29.1"
+      "Radzen.Blazor >= 4.29.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Владимир\\.nuget\\packages\\": {},
+    "C:\\Users\\vovac\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Владимир\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+      "projectUniqueName": "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
       "projectName": "TestWork.Vegastar",
-      "projectPath": "C:\\Users\\Владимир\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
-      "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Владимир\\Source\\Repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\",
+      "projectPath": "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\TestWork.Vegastar.csproj",
+      "packagesPath": "C:\\Users\\vovac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vovac\\source\\repos\\testwork.vegastar.blazor\\src\\TestWork.Vegastar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vovac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -835,6 +835,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\vovac\\OneDrive\\Документы\\LabLibrary\\LabLibrary\\bin\\Debug": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -847,11 +848,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -864,7 +860,7 @@
           },
           "Radzen.Blazor": {
             "target": "Package",
-            "version": "[4.29.1, )"
+            "version": "[4.29.2, )"
           }
         },
         "imports": [
@@ -886,7 +882,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

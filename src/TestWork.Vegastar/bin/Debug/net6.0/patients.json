@@ -1,0 +1,692 @@
+[
+  {
+    "Firstname": "Осип",
+    "Surname": "Самсонов",
+    "Patronymic": "Филипп",
+    "BirthDate": "1967-01-31T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "8544764290903990"
+    },
+    "Address": {
+      "City": "с. Магадан",
+      "Region": null,
+      "Street": "бул. Комсомольский",
+      "House": null,
+      "Flat": null,
+      "Floor": 10
+    }
+  },
+  {
+    "Firstname": "Любим",
+    "Surname": "Лихачев",
+    "Patronymic": null,
+    "BirthDate": "1974-11-26T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "7333899934007954"
+    },
+    "Address": {
+      "City": "п. Астрахань",
+      "Region": "Челябинская обл.",
+      "Street": null,
+      "House": null,
+      "Flat": 72,
+      "Floor": 1
+    }
+  },
+  {
+    "Firstname": "Евстигней",
+    "Surname": "Селиверстова",
+    "Patronymic": null,
+    "BirthDate": "1980-06-17T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "4060054076970202"
+    },
+    "Address": {
+      "City": "к. Нарым",
+      "Region": null,
+      "Street": null,
+      "House": null,
+      "Flat": null,
+      "Floor": 3
+    }
+  },
+  {
+    "Firstname": "Фортунат",
+    "Surname": "Панфилова",
+    "Patronymic": null,
+    "BirthDate": "1975-06-09T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "585-800-545 19"
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "ст. Назрань",
+      "Region": null,
+      "Street": "ш. Производственное",
+      "House": 3,
+      "Flat": 59,
+      "Floor": 7
+    }
+  },
+  {
+    "Firstname": "Анастасия",
+    "Surname": "Шилов",
+    "Patronymic": null,
+    "BirthDate": "1935-02-08T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "2746932715936274"
+    },
+    "Address": {
+      "City": "клх Оха",
+      "Region": "Ямало-Ненецкий АО",
+      "Street": "бул. Комсомольский",
+      "House": 21,
+      "Flat": 10,
+      "Floor": 3
+    }
+  },
+  {
+    "Firstname": "Бронислав",
+    "Surname": "Власов",
+    "Patronymic": null,
+    "BirthDate": "1958-04-10T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "264-851-156 64"
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "п. Кинешма",
+      "Region": "Ямало-Ненецкий АО",
+      "Street": "алл. Луговая",
+      "House": 32,
+      "Flat": null,
+      "Floor": 3
+    }
+  },
+  {
+    "Firstname": "Леонтий",
+    "Surname": "Мамонтов",
+    "Patronymic": "Осип",
+    "BirthDate": "1966-01-11T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "3576601248370318"
+    },
+    "Address": {
+      "City": "к. Великий Устюг",
+      "Region": null,
+      "Street": "пер. Кутузова",
+      "House": 83,
+      "Flat": 96,
+      "Floor": 5
+    }
+  },
+  {
+    "Firstname": "Азарий",
+    "Surname": "Антонова",
+    "Patronymic": "Октябрина",
+    "BirthDate": "1984-09-30T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "060-395-068 82"
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "п. Ясный (Оренб.)",
+      "Region": null,
+      "Street": null,
+      "House": 7,
+      "Flat": null,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Марина",
+    "Surname": "Панов",
+    "Patronymic": "Ян",
+    "BirthDate": "1987-10-17T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "369-642-150 11"
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "0591647383372118"
+    },
+    "Address": {
+      "City": "к. Листвянка (Иркут.)",
+      "Region": "Челябинская обл.",
+      "Street": null,
+      "House": null,
+      "Flat": null,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Эрнест",
+    "Surname": "Рыбаков",
+    "Patronymic": "Валентин",
+    "BirthDate": "1984-05-12T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "ст. Лянтор",
+      "Region": null,
+      "Street": null,
+      "House": null,
+      "Flat": 32,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Фотий",
+    "Surname": "Цветкова",
+    "Patronymic": "Тихон",
+    "BirthDate": "1953-02-16T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "ст. Шатой",
+      "Region": "Смоленская обл.",
+      "Street": null,
+      "House": 42,
+      "Flat": null,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Андрон",
+    "Surname": "Петров",
+    "Patronymic": "Оксана",
+    "BirthDate": "1976-12-13T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "г. Арсеньев",
+      "Region": "Еврейская АО",
+      "Street": "ул. Металлургов",
+      "House": 77,
+      "Flat": 34,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Владимир",
+    "Surname": "Крылов",
+    "Patronymic": "Панкратий",
+    "BirthDate": "1985-10-07T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "661-171-734 98"
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "9341029396103351"
+    },
+    "Address": {
+      "City": "д. Углегорск",
+      "Region": "Забайкальский край",
+      "Street": null,
+      "House": null,
+      "Flat": 54,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Илья",
+    "Surname": "Дмитриев",
+    "Patronymic": null,
+    "BirthDate": "1986-12-21T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "622-882-114 30"
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "2642253135915820"
+    },
+    "Address": {
+      "City": "к. Пушкино (Моск.)",
+      "Region": null,
+      "Street": "ул. Подстанция",
+      "House": null,
+      "Flat": 89,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Всеволод",
+    "Surname": "Данилова",
+    "Patronymic": "Феоктист",
+    "BirthDate": "1944-06-20T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "4666489872912243"
+    },
+    "Address": {
+      "City": "клх Апшеронск",
+      "Region": "Ненецкий АО",
+      "Street": null,
+      "House": 73,
+      "Flat": null,
+      "Floor": 3
+    }
+  },
+  {
+    "Firstname": "Спиридон",
+    "Surname": "Анисимов",
+    "Patronymic": null,
+    "BirthDate": "1965-10-27T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "7656819582263472"
+    },
+    "Address": {
+      "City": "г. Калязин",
+      "Region": "Приморский край",
+      "Street": null,
+      "House": null,
+      "Flat": null,
+      "Floor": 6
+    }
+  },
+  {
+    "Firstname": "Ростислав",
+    "Surname": "Субботин",
+    "Patronymic": "Остромир",
+    "BirthDate": "1944-11-08T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "413-616-288 89"
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "д. Новокузнецк",
+      "Region": null,
+      "Street": null,
+      "House": null,
+      "Flat": 16,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Ия",
+    "Surname": "Овчинникова",
+    "Patronymic": "Зиновий",
+    "BirthDate": "1999-05-20T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "8969283533654518"
+    },
+    "Address": {
+      "City": "ст. Череповец",
+      "Region": null,
+      "Street": null,
+      "House": 11,
+      "Flat": 8,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Дарья",
+    "Surname": "Зыков",
+    "Patronymic": "Платон",
+    "BirthDate": "1997-11-06T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "г. Байкальск",
+      "Region": null,
+      "Street": "пер. Никитина",
+      "House": 67,
+      "Flat": 59,
+      "Floor": 3
+    }
+  },
+  {
+    "Firstname": "Автоном",
+    "Surname": "Мельникова",
+    "Patronymic": "Сигизмунд",
+    "BirthDate": "1974-04-21T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "к. Хасан",
+      "Region": null,
+      "Street": "ул. Березовая",
+      "House": 30,
+      "Flat": null,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Христофор",
+    "Surname": "Зиновьев",
+    "Patronymic": "Ян",
+    "BirthDate": "1944-02-18T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "1075266894364523"
+    },
+    "Address": {
+      "City": "п. Морозовск",
+      "Region": null,
+      "Street": null,
+      "House": 98,
+      "Flat": null,
+      "Floor": 9
+    }
+  },
+  {
+    "Firstname": "Лукия",
+    "Surname": "Мельникова",
+    "Patronymic": null,
+    "BirthDate": "1993-08-30T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "3849259840579414"
+    },
+    "Address": {
+      "City": "ст. Архангельск",
+      "Region": "Ненецкий АО",
+      "Street": "пр. Карла Маркса",
+      "House": 12,
+      "Flat": 88,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Милен",
+    "Surname": "Зуев",
+    "Patronymic": "Азарий",
+    "BirthDate": "1944-10-07T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "г. Троицко-Печорск",
+      "Region": "респ. Татарстан",
+      "Street": null,
+      "House": 88,
+      "Flat": null,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Онуфрий",
+    "Surname": "Щербакова",
+    "Patronymic": null,
+    "BirthDate": "1973-03-12T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "791-082-899 29"
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "3631956089140537"
+    },
+    "Address": {
+      "City": "к. Кизляр",
+      "Region": "Камчатский край",
+      "Street": "пр. Олимпийский",
+      "House": null,
+      "Flat": null,
+      "Floor": 8
+    }
+  },
+  {
+    "Firstname": "Арефий",
+    "Surname": "Карпова",
+    "Patronymic": "Самсон",
+    "BirthDate": "1938-03-22T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "с. Камень-на-Оби",
+      "Region": "Ямало-Ненецкий АО",
+      "Street": null,
+      "House": 30,
+      "Flat": 23,
+      "Floor": 4
+    }
+  },
+  {
+    "Firstname": "Емельян",
+    "Surname": "Шестаков",
+    "Patronymic": null,
+    "BirthDate": "1995-01-21T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "клх Бомнак",
+      "Region": "Еврейская АО",
+      "Street": null,
+      "House": null,
+      "Flat": null,
+      "Floor": 5
+    }
+  },
+  {
+    "Firstname": "Глеб",
+    "Surname": "Герасимов",
+    "Patronymic": null,
+    "BirthDate": "1980-09-16T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "8326487338878101"
+    },
+    "Address": {
+      "City": "ст. Апшеронск",
+      "Region": "Еврейская АО",
+      "Street": null,
+      "House": null,
+      "Flat": null,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Еремей",
+    "Surname": "Мишина",
+    "Patronymic": "Тимур",
+    "BirthDate": "1953-01-02T00:00:00",
+    "Gender": 1,
+    "Snils": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "клх Учалы",
+      "Region": null,
+      "Street": null,
+      "House": null,
+      "Flat": 22,
+      "Floor": 4
+    }
+  },
+  {
+    "Firstname": "Зоя",
+    "Surname": "Зуева",
+    "Patronymic": null,
+    "BirthDate": "1986-06-03T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "144-999-418 69"
+    },
+    "Polis": {
+      "DocumentType": 2,
+      "DocumentNumber": "2798491849497328"
+    },
+    "Address": {
+      "City": "с. Заводоуковск",
+      "Region": "Иркутская обл.",
+      "Street": null,
+      "House": null,
+      "Flat": null,
+      "Floor": null
+    }
+  },
+  {
+    "Firstname": "Илья",
+    "Surname": "Носова",
+    "Patronymic": null,
+    "BirthDate": "1962-10-05T00:00:00",
+    "Gender": 2,
+    "Snils": {
+      "DocumentType": 1,
+      "DocumentNumber": "210-276-415 23"
+    },
+    "Polis": {
+      "DocumentType": 0,
+      "DocumentNumber": null
+    },
+    "Address": {
+      "City": "с. Городовиковск",
+      "Region": null,
+      "Street": "пр. Мичурина",
+      "House": null,
+      "Flat": null,
+      "Floor": null
+    }
+  }
+]
